@@ -9,6 +9,8 @@ Version 0.3.
 
 The current version will evolve to include more features over time.  However out of the box it provides a useful way to capture images from live and pre-recorded video. 
 
+Based on the excellent tutorial by Sentdex (https://pythonprogramming.net/).
+
 ## Example Usage: 
 
 ./faceDetect.py
