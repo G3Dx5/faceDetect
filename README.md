@@ -1,7 +1,7 @@
 # faceDetect
 ## Python script for detecting human faces from webcam or similar connected camera
 
-Version 0.1 October 2020.
+Version 0.1 November 2020.
 
 Python program to extract human faces detected from a supplied video file. Utilises opencv for facial detection  
 Tested successfully with .mp4, .avi and .mov files
