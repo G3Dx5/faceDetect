@@ -1,22 +1,29 @@
 # faceDetect
 ## Python script for detecting human faces from webcam or similar connected camera
 
-Script using the opencv framework for utilising webcams or other similarly connected devices to identify faces in video.  When faces are identified a photograph is taken and saved to the 'pics' folder.  If the folder does not already exist it is created.  Images are saved with a time date stamp of the system time when the image is taken.  
+EXTRACT FACIAL IMAGES FROM VIDEO FILES (DETECTION)
 
-The project utilises haar cascasses to identify facial features and when a face is identified on live view bounding boxes appear and an image is taken according to delay period set at hte top of the script.  
+Version 0.1 October 2020.
 
-Version 0.3.  
+Python program to extract human faces detected from a supplied video file. Utilises opencv for facial detection  
+Tested successfully with .mp4, .avi and .mov files
 
-The current version will evolve to include more features over time.  However out of the box it provides a useful way to capture images from live and pre-recorded video. 
+Produces: 
 
-Based on the excellent tutorial by Sentdex (https://pythonprogramming.net/).
+- Folder created named faces_detected (video file name) elapsed time of image in video file 
+- Images taken of faces in folder with video file name based on the time interval set by user, saved with date of image taken
+- Log of dates / times of execution of the program (event.log) with hash of the video file
 
-## Example Usage: 
+Requirements (non standard):  
+- opencv library 
+- 2 haar cascade files for facial detection
 
-./faceDetect.py
+Example usage:  
+
+python3 facedetectfromVid.py -f myvideo.avi -i 2
 
 ## Licence:
 
 MIT Licence
 
-GaDayas 2017 
+GaDayas 2020 
