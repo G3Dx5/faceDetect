@@ -20,6 +20,9 @@ Example usage:
 
 python3 facedetectfromVid.py -f myvideo.avi -i 2
 
+-f for video file
+-i for interval. If set to 1, an image will be taken then 1 second will elapse.  From testing 1 second is the ideal time lapse to prevent uncessary shots being taken.  
+
 ## Licence:
 
 MIT Licence
