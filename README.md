@@ -27,4 +27,4 @@ python3 facedetectfromVid.py -f myvideo.avi -i 2
 
 MIT Licence
 
-GaDayas 2020 
+GaDayas November 2020 
