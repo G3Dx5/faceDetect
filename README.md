@@ -12,9 +12,8 @@ Produces:
 - Images taken of faces in folder with video file name based on the time interval set by user, saved with date of image taken
 - Log of dates / times of execution of the program (event.log) with hash of the video file
 
-Requirements (non standard):  
-- opencv library 
-- 2 haar cascade files for facial detection
+
+![](diagram/facedetect.png)
 
 Example usage:  
 
