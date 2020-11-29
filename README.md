@@ -13,6 +13,7 @@ Produces:
 - Log of dates / times of execution of the program (event.log) with hash of the video file
 
 
+
 ![](diagram/facedetect.png)
 
 Example usage:  
