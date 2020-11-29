@@ -1,0 +1,2 @@
+# faceDetect/facedetectfromVid.py: 4
+opencv_python == 4.4.0.46
